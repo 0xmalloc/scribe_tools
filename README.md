@@ -1,5 +1,3 @@
-scribe_test
-===========
 
 #What's This?
     There are two tools here.  scribe_stdin and scribe_test.
