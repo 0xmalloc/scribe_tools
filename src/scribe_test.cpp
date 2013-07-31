@@ -27,7 +27,7 @@ const char* g_msg = "N";
 void print_usage(const char* program_name) {
 	cout << "Scribe tools made by 0xmalloc@gmail.com" <<endl;
 	cout << "Version :" << G_Tools_Version << endl;
-	cout << "Usage: " << program_name << " [-h host] [-p port] [-c category]" << endl;
+	cout << "Usage: " << program_name << " [-h host] [-p port] [-c category] [-s size] [-t times]" << endl;
 	cout << "Usage: " << program_name << " [-v help] [--help help]" << endl;
 }
 
@@ -48,7 +48,8 @@ int main(int argc, char** argv)
         { "host",     0, NULL, 'h' },
         { "port",     0, NULL, 'p' },
         { "category", 0, NULL, 'c' },
-        { "size", 0, NULL, 's' },
+        { "size",     0, NULL, 's' },
+        { "times",    0, NULL, 't' },
         { "help",     0, NULL, 'v' },
     };
 
