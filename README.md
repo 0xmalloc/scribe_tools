@@ -1,5 +1,5 @@
 #What's This?
-scribe_tools are written in C++ base on stree test and common test for facebook scribe. also you can easy find how to write a log client for scribe. Have fun!
+scribe_tools are written in C++ base on stress  test and common test for facebook scribe. also you can easy find how to write a log client for scribe. Have fun!
 
     There are two tools here.  scribe_stdin and scribe_test.
     `scribe_stdin` is used to read log from stdin and send it to scribe
